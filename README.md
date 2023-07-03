@@ -87,3 +87,10 @@ MIDDLEWARE = [
     # ...
 ]
 ```
+
+# An example of how to use it
+- ```http://127.0.0.1:8000/?lang=ar```
+- ```http://127.0.0.1:8000/book_list/?lang=ar```
+- ```http://127.0.0.1:8000/1/?lang=ar```
+- ```http://127.0.0.1:8000/admin/?lang=ar```
+- ```http://127.0.0.1:8000/<any-endpoint>/?lang=ar```
