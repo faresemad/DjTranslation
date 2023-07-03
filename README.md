@@ -2,6 +2,10 @@
 Django Multi Language (Translation)
 ## First Step
 - You need to install gettext on your system
+ ```bash
+sudo apt-get update
+sudo apt-get install gettext
+```
 
 ## Second Step
 - Add to your settings.py
