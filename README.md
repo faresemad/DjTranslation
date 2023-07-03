@@ -13,7 +13,7 @@ sudo apt-get install gettext
 # add this line in MIDDLEWARE
 MIDDLEWARE = [
     # ...
-"django.middleware.locale.LocaleMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     # ...
 ]
 # add LOCALE_PATHS and LANGUAGES
@@ -26,7 +26,7 @@ LANGUAGES = [
     ("ar", "Arabic"),
 ]
 
-
+# default language
 LANGUAGE_CODE = "en"
 ```
 ## Third Step
