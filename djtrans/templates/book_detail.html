@@ -1,0 +1,26 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Detail</title>
+</head>
+<body>
+    <h1>{% trans "Book Detail" %}</h1>
+    <table>
+        <tr>
+            <th>{% trans "Book ID" %}</th>
+            <th>{% trans "Book Title" %}</th>
+            <th>{% trans "Author" %}</th>
+            <th>{% trans "Price" %}</th>
+        </tr>
+        <tr>
+            <td>{{ book.id }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.price }}</td>
+        </tr>
+    </table>
+</body>
+</html>
